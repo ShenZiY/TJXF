@@ -1,0 +1,121 @@
+@CHARSET "UTF-8";
+
+.maintopbar{float:left;width:1400px;height: 60px;padding-top:10px;padding-left:30px; background-color: #660066;color:white;margin-bottom: 2px;}
+.mainleftblock{width:280px;height:100%; float:left;padding-top: 30px;}
+.mainleftmenu{display:block;width:260px;height:40px;color: white;font-size: 20px;padding-left: 20px;
+padding-top:10px; margin-bottom: 30px;text-decoration: none;background-color: #996699;}
+.mainleftmenu:hover{background-color: #660066;}
+.mainrightblock{width:1000px;height:100%;padding-left:60px; background-color:#EFF3F6;float: left; }
+.productscard{width:100px;height: 30px;float: left;background-color: #996699;margin-left: 2px;text-align: center;
+padding-top: 10px;border-radius: 5px;font-size:16px;}
+
+
+
+
+
+
+table
+        {
+            border-collapse: collapse;
+            margin: 0 auto;
+            font-size:16px;
+            text-align: center;
+        }
+        table td, table th
+        {
+            border: 1px solid #cad9ea;
+            color: #666;
+            height: 30px;
+            width:130px;
+        }
+        table thead th
+        {
+            background-color: #CCE8EB;
+            
+        }
+        table tr:nth-child(odd)
+        {
+            background: #fff;
+        }
+        table tr:nth-child(even)
+        {
+            background: #F5FAFA;
+        }
+        
+        
+        
+        
+/* select{
+                font-family: "微软雅黑";
+                margin:10px;
+                background: rgba(0,0,0,0);
+                width: 100px;
+                height: 30px;
+                font-size: 13px;
+                color: black;
+                text-align: center;
+                border: 1px #1a1a1a solid;
+                border-radius: 5px;
+            }
+            option{
+                color: black;
+                background: #A6E1EC;
+                line-height: 20px;
+            }
+            select:focus{
+                border: 2px #ddd solid;
+                box-shadow: 0 0 15px 1px #DDDDDD;
+            }
+            option:hover{
+                background: #EBCCD1;
+            } */
+            
+select{
+  border: solid 5px #FFF;
+/*    appearance:none;
+  -moz-appearance:none;    for firefox     
+  -webkit-appearance:none;    for chrome 
+  padding-right: 10px;*/
+  color:#FFFFFF;
+  font-size: 17px;
+    width: 100px;
+   height: 40px;
+   overflow: hidden;
+   background: url(arrow.png) no-repeat right #CC99CC;
+  }
+
+  option{ color:#FFFFFF;}
+              
+
+		.table4_10 table {
+			width:100%;
+			margin:15px 0;
+			border:0;
+		}
+		.table4_10 th {
+			background-color:#b578b5;
+			color:#FFFFFF
+		}
+		.table4_10,.table4_10 th,.table4_10 td {
+			font-size:0.95em;
+			text-align:center;
+			padding:4px;
+			border-collapse:collapse;
+		}
+		.table4_10 th,.table4_10 td {
+			border: 1px solid #d4b1d4;
+			border-width:1px 0 1px 0
+		}
+		.table4_10 tr {
+			border: 1px solid #d4b1d4;
+		}
+		.table4_10 tr:nth-child(odd){
+			background-color:#e6d2e6;
+		}
+		.table4_10 tr:nth-child(even){
+			background-color:#fdfdfd;
+		}
+
+
+
+  
